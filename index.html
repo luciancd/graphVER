@@ -1,1 +1,48 @@
----
+
+<html>
+<head>
+	<title>graphVER</title>
+
+	<!-- Loads and initializes the library -->
+	<script src="resources/library/rappid/node_modules/lodash/index.js"></script>
+	<script src="resources/library/rappid/node_modules/jquery/dist/jquery.js"></script>
+	<script src="resources/library/rappid/node_modules/backbone/backbone.js"></script>
+
+
+	<script type="text/javascript" src="Main.js"></script>
+
+	<!--<script src="resources/library/rappid/src/core.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.mvc.view.js"></script>-->
+	<!--<script src="resources/library/rappid/src/geometry.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.attributes.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.cell.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.element.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.graph.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.link.js"></script>-->
+	<!--<script src="resources/library/rappid/src/joint.dia.paper.js"></script>-->
+	<!--<script src="resources/library/rappid/src/ports.js"></script>-->
+	<!--<script src="resources/library/rappid/src/vectorizer.js"></script>-->
+	<script src="resources/library/rappid/build/rappid.js"></script>
+
+	<script src="TMM/rappid/tree/Node.js"></script>
+	<script src="TMM/util/XHR.js"></script>
+	<script src="TMM/rappid/shapes/TMMSVG.js"></script>
+	<script src="TMM/rappid/tree/Loader.js"></script>
+	<script src="TMM/util/SVG.js"></script>
+	<link rel="stylesheet" href="resources/library/rappid/build/rappid.css">
+	<script src="TMM/rappid/tree/node/ToCell.js"></script>
+	<script src="TMM/rappid/cell/Behaviour.js"></script>
+	<link rel="stylesheet" href="Main.css">
+	<script src="TMM/rappid/Paper.js"></script>
+
+
+</head>
+
+<!-- Page passes the container for the graph to the program -->
+<body onload="main(document.getElementById('graphContainer'))">
+
+	<!-- Creates a container for the graph with a grid wallpaper -->
+	<div id="graphContainer">
+	</div>
+</body>
+</html>

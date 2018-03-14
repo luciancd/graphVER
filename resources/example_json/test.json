@@ -1,0 +1,278 @@
+{
+  "unit": "cm",
+  "layers": {
+    "layer-1": {
+      "id": "layer-1",
+      "altitude": 0,
+      "order": 0,
+      "opacity": 1,
+      "name": "default",
+      "visible": true,
+      "vertices": {
+        "SygfGseJYz": {
+          "id": "SygfGseJYz",
+          "type": "",
+          "prototype": "vertices",
+          "name": "Vertex",
+          "misc": {},
+          "selected": false,
+          "properties": {},
+          "x": 599.6528568998028,
+          "y": 1599.056206548501,
+          "lines": [
+            "H1IzolJYz",
+            "rJ5RGie1tf"
+          ],
+          "areas": []
+        },
+        "HyWGGilktz": {
+          "id": "HyWGGilktz",
+          "type": "",
+          "prototype": "vertices",
+          "name": "Vertex",
+          "misc": {},
+          "selected": false,
+          "properties": {},
+          "x": 902.3176240274336,
+          "y": 1599.056206548501,
+          "lines": [
+            "rJ5RGie1tf"
+          ],
+          "areas": []
+        },
+        "ByxNMjxytG": {
+          "id": "ByxNMjxytG",
+          "type": "",
+          "prototype": "vertices",
+          "name": "Vertex",
+          "misc": {},
+          "selected": false,
+          "properties": {},
+          "x": 902.3176240274336,
+          "y": 1302.8863915051543,
+          "lines": [
+            "ryrGox1Kf"
+          ],
+          "areas": []
+        },
+        "BylrGjl1KM": {
+          "id": "BylrGjl1KM",
+          "type": "",
+          "prototype": "vertices",
+          "name": "Vertex",
+          "misc": {},
+          "selected": false,
+          "properties": {},
+          "x": 599.6528568998028,
+          "y": 1302.8863915051543,
+          "lines": [
+            "ryrGox1Kf",
+            "H1IzolJYz"
+          ],
+          "areas": []
+        }
+      },
+      "lines": {
+        "H1IzolJYz": {
+          "id": "H1IzolJYz",
+          "type": "wall",
+          "prototype": "lines",
+          "name": "Wall",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "height": {
+              "length": 300
+            },
+            "thickness": {
+              "length": 20
+            },
+            "textureA": "bricks",
+            "textureB": "bricks"
+          },
+          "vertices": [
+            "BylrGjl1KM",
+            "SygfGseJYz"
+          ],
+          "holes": []
+        },
+        "rJ5RGie1tf": {
+          "id": "rJ5RGie1tf",
+          "type": "wall",
+          "prototype": "lines",
+          "name": "Wall",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "height": {
+              "length": 300
+            },
+            "thickness": {
+              "length": 20
+            },
+            "textureA": "bricks",
+            "textureB": "bricks"
+          },
+          "vertices": [
+            "SygfGseJYz",
+            "HyWGGilktz"
+          ],
+          "holes": []
+        },
+        "ryrGox1Kf": {
+          "id": "ryrGox1Kf",
+          "type": "wall",
+          "prototype": "lines",
+          "name": "Wall",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "height": {
+              "length": 300
+            },
+            "thickness": {
+              "length": 20
+            },
+            "textureA": "bricks",
+            "textureB": "bricks"
+          },
+          "vertices": [
+            "BylrGjl1KM",
+            "ByxNMjxytG"
+          ],
+          "holes": []
+        }
+      },
+      "holes": {},
+      "areas": {},
+      "items": {
+        "r1YXil1YG": {
+          "id": "r1YXil1YG",
+          "type": "bookcase",
+          "prototype": "items",
+          "name": "Bookcase",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "x": 1071.1863782188154,
+          "y": 1432.7854331908325,
+          "rotation": 0
+        },
+        "BJs7ixkYz": {
+          "id": "BJs7ixkYz",
+          "type": "bookcase",
+          "prototype": "items",
+          "name": "Bookcase",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "x": 1158.21873614822,
+          "y": 1434.0844236076894,
+          "rotation": 0
+        },
+        "ryWVsl1FM": {
+          "id": "ryWVsl1FM",
+          "type": "bookcase",
+          "prototype": "items",
+          "name": "Bookcase",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "x": 1249.148065328195,
+          "y": 1434.0844236076894,
+          "rotation": 0
+        },
+        "S1X4oekYz": {
+          "id": "S1X4oekYz",
+          "type": "bookcase",
+          "prototype": "items",
+          "name": "Bookcase",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "x": 1369.9541740958755,
+          "y": 1430.1874523571191,
+          "rotation": -14.553572790712593
+        },
+        "H1-vjxkFf": {
+          "id": "H1-vjxkFf",
+          "type": "cleaning cart",
+          "prototype": "items",
+          "name": "Cleaning cart",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "x": 1143.9298415627952,
+          "y": 1222.3489856600336,
+          "rotation": 0
+        }
+      },
+      "selected": {
+        "vertices": [],
+        "lines": [],
+        "holes": [],
+        "areas": [],
+        "items": []
+      }
+    }
+  },
+  "guides": {
+    "h1": {
+      "id": "h1",
+      "type": "horizontal-streak",
+      "properties": {
+        "step": 20,
+        "colors": [
+          "#808080",
+          "#ddd",
+          "#ddd",
+          "#ddd",
+          "#ddd"
+        ]
+      }
+    },
+    "v1": {
+      "id": "v1",
+      "type": "vertical-streak",
+      "properties": {
+        "step": 20,
+        "colors": [
+          "#808080",
+          "#ddd",
+          "#ddd",
+          "#ddd",
+          "#ddd"
+        ]
+      }
+    }
+  },
+  "selectedLayer": "layer-1",
+  "width": 3000,
+  "height": 2000,
+  "meta": {}
+}
